@@ -53,7 +53,7 @@ odoo.define('custom_pos.screens', function (require) {
                 /* product screen key down events */
                 if(!$($(document).find(".product-screen")[0]).hasClass('oe_hidden')){
                     if(event.which == 113) {      // click on "F2" button
-                        $(document).find("div.product-screen div.middlepane span#shortcut_tips_btn").trigger("click");
+                        $(document).find("span#shortcut_tips_btn").trigger("click");
                     }
                 }
 
