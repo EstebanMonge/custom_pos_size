@@ -1,24 +1,21 @@
 # -*- coding: utf-8 -*-
 {
-    'name': "Custom POS Keyboard Shortcut",
+    'name': "Custom POS Size",
     'summary': """
-        Customized Point of Sale layout and keyboard shortcuts for desktop users
+        Customized Point of Sale size layout 
     """,
     'description': """
-        Customized Point of Sale layout and keyboard shortcuts for desktop users
+        Customized Point of Sale size layout
     """,
-    'author': "Abdullah Al Arafat Bipul",
-    'website': "http://www.scorpion9.com",
+    'author': "Esteban Monge",
+    'website': "https://www.sempai.space",
     'license': "LGPL-3",
-    'support': "imbipul9@gmail.com",
+    'support': "estebanmonge@riseup.net",
     'category': 'point of sale',
     'version': '0.1',
     'depends': ['point_of_sale'],
     'data': [
         'views/assets.xml',
-    ],
-    'qweb': [
-        'static/src/xml/pos.xml',
     ],
     'images': ['static/description/thumbnail.png'],
     'installable': True,
